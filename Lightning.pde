@@ -4,7 +4,7 @@ int endX = 0;
 int endY = 150;
 void setup()
 {
-  size(1000,1000);
+  size(1000,800);
   background(0, 200, 255);
   strokeWeight(5);
   shadow();
