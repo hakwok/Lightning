@@ -7,9 +7,7 @@ void setup()
   size(1000,800);
   background(0, 200, 255);
   strokeWeight(5);
-  shadow();
-  rotate(.78);
-  translate(200, -450);
+  translate(50, -20);
   cloud();
 }
 
@@ -29,15 +27,6 @@ void draw()
     startY += (int)(Math.random() * 20);
     line(startX, startY, endX, endY);
   }
-}
-
-void shadow()
-{
-  noStroke();
-  fill(0, 200, 255);
-  translate(-150, 430);
-  rotate(-0.78);
-  rect(380, 450, 200, 1000);
 }
 
 void cloud()
