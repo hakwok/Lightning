@@ -8,7 +8,13 @@ void setup()
   background(0, 200, 255);
   strokeWeight(5);
   translate(50, -20);
-  cloud();
+  stroke(255, 255, 255);
+  fill(255, 255, 255);
+  rect(400, 400, 200, 100);
+  circle(400, 450, 100);
+  circle(600, 450, 100);
+  circle(470, 400, 170);
+  circle(560, 410, 110);
 }
 
 void draw()
